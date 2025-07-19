@@ -1,0 +1,8 @@
+<?php
+
+dataset('emails', [
+    'test@test.com',
+    'test2@test.com',
+    'test3@test.com',
+    'test4@test.com',
+]);
