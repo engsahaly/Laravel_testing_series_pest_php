@@ -131,7 +131,7 @@ use App\Models\User;
 // test('Calculate two numbers', function () {
 //     $response = $this->get('/');
 
-//     $response->assertStatus(200);
+//     $response->assertStatus(400);
 // })->group('sum-group', 'extra-group');
 
 // test('Calculate two numbers 2', function () {
@@ -140,8 +140,34 @@ use App\Models\User;
 //     $response->assertStatus(200);
 // });
 
+
+
+####################### PEST PLUGIN FOR LARAVEL #################################
+// use function Pest\Laravel\{get, post, put, delete, patch, actingAs};
+
 // test('Calculate two numbers 3', function () {
+//     get('/')->assertStatus(200);
+// });
+    
+    
+    
+####################### HIGHER ORDER TESTING #################################
+// test('Check if homepage works fine', function () {
 //     $response = $this->get('/');
 
 //     $response->assertStatus(200);
 // });
+test('Check if homepage works fine')
+    ->get('/')
+    ->assertStatus(200);
+
+
+
+// test('Calculate two numbers', function () {
+//     $response = 1 + 2;
+
+//     expect($response)->toBe(3);
+// });
+test('Calculate two numbers')
+    ->expect(1+2)
+    ->toBe(3);

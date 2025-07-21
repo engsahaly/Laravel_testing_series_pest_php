@@ -12,8 +12,7 @@
 */
 
 pest()->extend(Tests\TestCase::class)
- // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
-    ->group('feature-group')
+    // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
     ->in('Feature');
 
 /*
@@ -46,3 +45,13 @@ function something()
 {
     // ..
 }
+
+function helloWorld()
+{
+    dump('Hello World');
+}
+
+
+// pest()->beforeEach(function () {
+//     dump('hello from global hook function from pest.php file');
+// })->in('Feature', 'Smoke');
