@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\User;
+
 /*
 |--------------------------------------------------------------------------
 | Test Case
@@ -12,7 +14,7 @@
 */
 
 pest()->extend(Tests\TestCase::class)
-    // ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
+    ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
     ->in('Feature');
 
 /*
@@ -40,18 +42,9 @@ expect()->extend('toBeOne', function () {
 | global functions to help you to reduce the number of lines of code in your test files.
 |
 */
-
-function something()
+function asUser()
 {
-    // ..
+    $user = User::factory()->create();
+ 
+    return test()->actingAs($user);
 }
-
-function helloWorld()
-{
-    dump('Hello World');
-}
-
-
-// pest()->beforeEach(function () {
-//     dump('hello from global hook function from pest.php file');
-// })->in('Feature', 'Smoke');
