@@ -8,20 +8,20 @@
     Test category create page rendered successfully
     Test category can be created successfully
     Test category name is required
-    test category name must be at least 3 characters long
-    test category name must be at most 255 characters long
-    test category description is optional
-    test category description must be at most 1000 characters long
+    Test category name must be at least 3 characters long
+    Test category name must be at most 255 characters long
+    Test category description is optional
+    Test category description must be at most 1000 characters long
 
 
 - Category Updating & Validation
     Test category update page rendered successfully
     Test category can be updated successfully
     Test category name is required
-    test category name must be at least 3 characters long
-    test category name must be at most 255 characters long
-    test category description is optional
-    test category description must be at most 1000 characters long
+    Test category name must be at least 3 characters long
+    Test category name must be at most 255 characters long
+    Test category description is optional
+    Test category description must be at most 1000 characters long
 
 
 - Category Deleting
@@ -29,10 +29,10 @@
 
 
 - Category Permissions
-    test guest cannot access categories page
-    test guest cannot access category creation page  
-    test guest cannot store a new category
-    test guest cannot access category edit page
-    test guest cannot access category show page
-    test guest cannot update a category
-    test guest cannot delete a category
+    Test guest cannot access categories page
+    Test guest cannot access category creation page  
+    Test guest cannot store a new category
+    Test guest cannot access category edit page
+    Test guest cannot access category show page
+    Test guest cannot update a category
+    Test guest cannot delete a category
