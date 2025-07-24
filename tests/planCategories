@@ -31,8 +31,8 @@
 - Category Permissions
     Test guest cannot access categories page
     Test guest cannot access category creation page  
-    Test guest cannot store a new category
     Test guest cannot access category edit page
     Test guest cannot access category show page
+    Test guest cannot store a new category
     Test guest cannot update a category
     Test guest cannot delete a category
