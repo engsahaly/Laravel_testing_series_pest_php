@@ -1,6 +1,6 @@
 ## Laravel Testing Series Part 2: Mastering Pest PHP Course Files on Udemy
 
-<img src="https://img-c.udemycdn.com/course/750x422/6425471_d8fb.jpg"> 
+<img src="https://img-c.udemycdn.com/course/750x422/6740595_9644.jpg"> 
 
 **Created By :** Mahmoud Anwar
 **Email :** Engsahaly@gmail.com
